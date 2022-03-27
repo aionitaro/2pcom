@@ -39,6 +39,5 @@ const getCommisions = async () => {
     }
 
 
-module.exports = {commsions: getCommisions()};
 
 }
