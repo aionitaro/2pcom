@@ -3,8 +3,8 @@ const axios = require('axios'); //add this line, this imports the axios function
 const getCommisions = async () => {
     axios.post('https://api.2performant.com/users/sign_in', {
         user: {
-            email: 'xxx',
-            password: 'xxx'
+            email: 'suntuluitor@gmail.com',
+            password: 'P@rola123'
         }
     })
         .then(function (response) {
