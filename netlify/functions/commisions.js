@@ -25,6 +25,7 @@ const getCommisions = async () => {
             ).then(function (response) {
                 let commissions = response.data.commissions
                 console.log(commissions);
+                return commissions
             }
 
             ).catch(function (error) {
@@ -38,6 +39,6 @@ const getCommisions = async () => {
 
     }
 
-
+getCommisions();
 
 }
