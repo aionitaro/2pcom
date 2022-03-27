@@ -1,3 +1,5 @@
+exports.handler = async function(event, context) {
+
 const axios = require('axios'); //add this line, this imports the axios functionalities into your code
 
 const getCommisions = async () => {
@@ -36,4 +38,6 @@ const getCommisions = async () => {
 
     }
 
-getCommisions();
+module.exports = {getCommisions};
+
+}
