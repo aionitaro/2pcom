@@ -1,4 +1,4 @@
-exports.handler = async function(event, context, callback) {
+exports.handler = async function(event, context, manee) {
 
 const axios = require('axios'); //add this line, this imports the axios functionalities into your code
 
@@ -39,6 +39,6 @@ const getCommisions = async () => {
 
     }
 
-const callback = getCommisions();
+const manele = getCommisions();
 
 }
