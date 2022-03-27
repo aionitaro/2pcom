@@ -1,2 +1,8 @@
 const commisions = require('./commisions.js');
-commisions.getCommisions();
+
+
+const manele = async () =>{
+    commisions.getCommisions();
+}
+
+manele();
