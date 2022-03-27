@@ -1,0 +1,15 @@
+{
+  "name": "2p",
+  "version": "1.0.0",
+  "description": "2p commisions",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.26.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
