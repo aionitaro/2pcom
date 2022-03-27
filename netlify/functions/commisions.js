@@ -38,6 +38,7 @@ const getCommisions = async () => {
 
     }
 
-module.exports = {getCommisions};
+
+module.exports = {commsions: getCommisions()};
 
 }
