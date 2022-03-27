@@ -1,6 +1,5 @@
-exports.handler = async function(event, context, manee) {
-
 const axios = require('axios'); //add this line, this imports the axios functionalities into your code
+const { builtinModules } = require('module');
 
 const getCommisions = async () => {
     axios.post('https://api.2performant.com/users/sign_in', {
@@ -39,6 +38,4 @@ const getCommisions = async () => {
 
     }
 
-const manele = getCommisions();
-
-}
+module.exports = {getCommisions}
