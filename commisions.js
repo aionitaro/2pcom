@@ -4,8 +4,8 @@ const { builtinModules } = require('module');
 const getCommisions = async () => {
     axios.post('https://api.2performant.com/users/sign_in', {
         user: {
-            email: 'suntuluitor@gmail.com',
-            password: 'P@rola123'
+            email: 'xxx',
+            password: 'xxx'
         }
     })
         .then(function (response) {
